@@ -1,0 +1,28 @@
+.container {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.todolist {
+  border: 1px solid #000;
+  border-radius: 3px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.flex-space {
+  flex-grow: 1;
+}
+
+.todo-title {
+  margin-left: 5px;
+}
